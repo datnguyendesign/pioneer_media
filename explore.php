@@ -41,7 +41,7 @@ $data_copy = $conn->query($sql_copy);
 
     <div class="container__image" id="blur">
       <?php while ($row = mysqli_fetch_assoc($data)) { ?>
-        <div class="item-img <?php echo $row["imageSize"]; ?>" data-name="i-<?php echo $row["imageID"]; ?>" onclick="clickMe();">
+        <div class="item-img" data-name="i-<?php echo $row["imageID"]; ?>" onclick="clickMe();">
           <div class="link-img">
             <img src="<?php echo $row["imageSource"]; ?>" alt="">
           </div>
@@ -65,10 +65,11 @@ $data_copy = $conn->query($sql_copy);
                 <i class="fa-regular fa-heart"></i>
                 <p class="no-of-like">15</p>
               </div>
-              <div class="download">
-                <i class="fa fa-download"></i>
-                <p class="no-of-download">15</p>
-              </div>
+              <div class="download" onclick="window.location.href='https://www.tooplate.com/zip-templates/2098_health.zip'">
+  <i class="fa fa-download"></i>
+  <p class="no-of-download">15</p>
+</div>
+
             </div>
             <div class="fields">
               <a href="#" class="field__item">Photos</a>

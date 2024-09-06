@@ -1,5 +1,5 @@
 -- Database: art_palette
-CREATE DATABASE art_palette;
+CREATE DATABASE pioneer_media;
 
 -- Table: account
 CREATE TABLE `account` (

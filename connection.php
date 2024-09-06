@@ -3,8 +3,8 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "art_palette";
+    $dbname = "pioneer_media";
 
-    $conn = new mysqli($servername, $username, $password, $dbname, 3307);
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
 ?>

@@ -41,7 +41,7 @@ if (isset($_POST["submit"])) {
             </div>
 
             <div class="title">
-                <a href="index.php">Pioneer Media</a>
+                <a href="index.php">PioMedia</a>
             </div>
         </div>
 

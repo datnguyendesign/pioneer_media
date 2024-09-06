@@ -32,7 +32,7 @@ if (!empty($_COOKIE['user_id'])) {
                 <img style="width: 60px;" src="images/logo-removebg-preview.png" alt="">
             </div>
             <div class="title">
-                Pioneer Media
+                PioMedia
             </div>
         </a>
 
